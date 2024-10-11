@@ -1,6 +1,10 @@
 /* Change this file to get your personal Portfolio */
 
 // To change portfolio colors globally go to the  _globalColor.scss file
+import { CgCPlusPlus } from "react-icons/cg";
+import { TbLetterC, TbBrandRedux } from "react-icons/tb";
+import { SiJquery, SiHaskell } from "react-icons/si";
+import { GiCamel } from "react-icons/gi";
 
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
@@ -76,7 +80,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "redux",
-      fontAwesomeClassname: "fab fa-redux"
+      reactIcon: <TbBrandRedux />
     },
     {
       skillName: "nodejs",
@@ -108,7 +112,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "jquery",
-      fontAwesomeClassname: "fas fa-code"
+      reactIcon: <SiJquery />
     },
     {
       skillName: "d3.js",
@@ -120,11 +124,11 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "c",
-      fontAwesomeClassname: "fas fa-code"
+      reactIcon: <TbLetterC />
     },
     {
       skillName: "c++",
-      fontAwesomeClassname: "fas fa-code"
+      reactIcon: <CgCPlusPlus />
     },
     {
       skillName: "sql",
@@ -140,11 +144,11 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "haskell",
-      fontAwesomeClassname: "fas fa-code"
+      reactIcon: <SiHaskell />
     },
     {
       skillName: "perl",
-      fontAwesomeClassname: "fas fa-code"
+      reactIcon: <GiCamel />
     }
   ],
   display: true // Set false to hide this section, defaults to true
