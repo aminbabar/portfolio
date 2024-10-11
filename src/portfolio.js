@@ -22,9 +22,9 @@ const illustration = {
 const greeting = {
   username: "Amin Babar",
   title: "Hi all, I'm Amin",
-  subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web applications with JavaScript / Reactjs / Nodejs  and some other cool libraries and frameworks."
-  ),
+  // subTitle: emoji(
+  //   "A skilled Full Stack Software Engineer ⚡ with hands-on experience in building dynamic web applications using <strong>JavaScript</strong>, React, Python, Rails, and AWS. Excited to tackle new challenges and craft efficient, scalable solutions with modern technologies."
+  // ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -42,16 +42,16 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "My Skills",
+  subTitle: "Mastering a wide array of languages, technologies, and frameworks – I build robust, scalable web applications and solve complex problems with a diverse set of modern tools and platforms.",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "Languages & Technologies JavaScript(ES6 +), Python, Ruby, C, C++, React.js, Redux, Node.js, Rails, Express.js, MongoDB, PostgreSQL, AWS, GIT, REST APIs, HTML5, CSS3, jQuery, D3.js"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    // emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    // emoji(
+    //   "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+    // )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -67,10 +67,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
@@ -79,36 +75,76 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-react"
     },
     {
+      skillName: "redux",
+      fontAwesomeClassname: "fab fa-redux"
+    },
+    {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
+      skillName: "mongodb",
       fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "git",
+      fontAwesomeClassname: "fab fa-git-alt"
     },
     {
       skillName: "aws",
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "rails",
+      fontAwesomeClassname: "fas fa-gem"
+    },
+    {
+      skillName: "postgresql",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "jquery",
+      fontAwesomeClassname: "fas fa-code"
+    },
+    {
+      skillName: "d3.js",
+      fontAwesomeClassname: "fas fa-chart-line"
+    },
+    {
+      skillName: "ruby",
+      fontAwesomeClassname: "fas fa-gem"
+    },
+    {
+      skillName: "c",
+      fontAwesomeClassname: "fas fa-code"
+    },
+    {
+      skillName: "c++",
+      fontAwesomeClassname: "fas fa-code"
+    },
+    {
+      skillName: "sql",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "bash",
+      fontAwesomeClassname: "fas fa-terminal"
+    },
+    {
+      skillName: "java",
+      fontAwesomeClassname: "fab fa-java"
+    },
+    {
+      skillName: "haskell",
+      fontAwesomeClassname: "fas fa-code"
+    },
+    {
+      skillName: "perl",
+      fontAwesomeClassname: "fas fa-code"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -120,23 +156,10 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Hamilton College",
+      logo: require("./assets/images/hamilton-logo.png"),
+      subHeader: "Bachellors in Computer Science",
+      duration: "September 2016 - April 2020",
     }
   ]
 };
@@ -350,7 +373,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -366,8 +389,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+1-(315)-731-0796",
+  email_address: "amin.babar1@gmail.com"
 };
 
 // Twitter Section

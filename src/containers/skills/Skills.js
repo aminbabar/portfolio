@@ -45,20 +45,14 @@ export default function Skills() {
             </p>
             <SoftwareSkill />
             <div>
-              {skillsSection.skills.map((skills, i) => {
-                return (
-                  <p
-                    key={i}
-                    className={
-                      isDark
-                        ? "dark-mode subTitle skills-text"
-                        : "subTitle skills-text"
-                    }
-                  >
-                    {skills}
-                  </p>
-                );
-              })}
+              <div className="header-skills">Languages and Technologies:</div>
+              <p>JavaScript (ES6+), Python, Ruby, C, C++, SQL, Bash, Java, Clojure, Prolog, Haskell, Perl, Assembly Language</p>
+
+              <div className="header-skills">Technologies & Databases:</div>
+              <p>HTML5, CSS3, MongoDB, PostgreSQL, AWS, GIT, REST APIs</p>
+
+              <div className="header-skills">Frameworks & Libraries:</div>
+              <p>React.js, Redux, Rails (Ruby on Rails), Express.js, Node.js, D3.js, RSpec Testing</p>
             </div>
           </div>
         </Fade>

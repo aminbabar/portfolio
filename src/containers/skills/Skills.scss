@@ -8,6 +8,9 @@
 
 .skills-text-div {
   margin-left: 50px;
+  p {
+    margin-top: 5px;
+  }
 }
 
 .skills-main-div > * {
@@ -26,6 +29,13 @@
 }
 .subTitle {
   color: $subTitle;
+}
+
+.header-skills {
+  font-size: 26px;
+  font-weight: 800;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
 }
 
 /* Media Query */

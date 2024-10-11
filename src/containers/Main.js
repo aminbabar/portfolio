@@ -52,20 +52,20 @@ const Main = () => {
           <>
             <Header />
             <Greeting />
-            {/* <Skills />
-            <StackProgress />
+            <Skills />
+            {/* <StackProgress /> */}
             <Education />
             <WorkExperience />
             <Projects />
-            <StartupProject />
-            <Achievement />
-            <Blogs />
-            <Talks />
-            <Twitter />
-            <Podcast />
+            {/* <StartupProject /> */}
+            {/* <Achievement /> */}
+            {/* <Blogs /> */}
+            {/* <Talks /> */}
+            {/* <Twitter /> */}
+            {/* <Podcast /> */}
             <Profile />
-            <Footer />
-            <ScrollToTopButton /> */}
+            {/* <Footer /> */}
+            <ScrollToTopButton />
           </>
         )}
       </StyleProvider>
