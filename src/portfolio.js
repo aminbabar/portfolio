@@ -1,10 +1,10 @@
 /* Change this file to get your personal Portfolio */
 
 // To change portfolio colors globally go to the  _globalColor.scss file
-import { CgCPlusPlus } from "react-icons/cg";
-import { TbLetterC, TbBrandRedux } from "react-icons/tb";
-import { SiJquery, SiHaskell } from "react-icons/si";
-import { GiCamel } from "react-icons/gi";
+import {CgCPlusPlus} from "react-icons/cg";
+import {TbLetterC, TbBrandRedux} from "react-icons/tb";
+import {SiJquery, SiHaskell} from "react-icons/si";
+import {GiCamel} from "react-icons/gi";
 
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
@@ -47,11 +47,12 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "My Skills",
-  subTitle: "Mastering a wide array of languages, technologies, and frameworks – I build robust, scalable web applications and solve complex problems with a diverse set of modern tools and platforms.",
+  subTitle:
+    "Mastering a wide array of languages, technologies, and frameworks – I build robust, scalable web applications and solve complex problems with a diverse set of modern tools and platforms.",
   skills: [
     emoji(
       "Languages & Technologies JavaScript(ES6 +), Python, Ruby, C, C++, React.js, Redux, Node.js, Rails, Express.js, MongoDB, PostgreSQL, AWS, GIT, REST APIs, HTML5, CSS3, jQuery, D3.js"
-    ),
+    )
     // emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     // emoji(
     //   "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
@@ -163,7 +164,7 @@ const educationInfo = {
       schoolName: "Hamilton College",
       logo: require("./assets/images/hamilton-logo.png"),
       subHeader: "Bachellors in Computer Science",
-      duration: "September 2016 - April 2020",
+      duration: "September 2016 - April 2020"
     }
   ]
 };

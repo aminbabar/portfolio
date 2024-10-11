@@ -34,14 +34,15 @@ export default function Greeting() {
                     : "greeting-text-p subTitle"
                 }
               >
-                A versatile Full Stack Software Engineer 🚀 skilled in building 
-                scalable web applications with a wide range of technologies, including
+                A versatile Full Stack Software Engineer 🚀 skilled in building
+                scalable web applications with a wide range of technologies,
+                including
                 <strong> JavaScript</strong>, <strong> Python </strong>,
-                <strong> React </strong>, <strong> Rails </strong>, 
-                <strong> MongoDB </strong>, 
-                <strong> AWS </strong>, and <strong> PostgreSQL </strong>. 
-                 and more. Always eager to leverage modern 
-                frameworks and tools to solve complex challenges.
+                <strong> React </strong>, <strong> Rails </strong>,
+                <strong> MongoDB </strong>,<strong> AWS </strong>, and{" "}
+                <strong> PostgreSQL </strong>. and more. Always eager to
+                leverage modern frameworks and tools to solve complex
+                challenges.
               </p>
               <SocialMedia />
               <div className="button-greeting-div">
