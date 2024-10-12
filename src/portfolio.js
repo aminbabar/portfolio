@@ -196,29 +196,45 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Lead Software Engineering Instructor",
+      company: "App Academy",
+      companylogo: require("./assets/images/AppAcademyLogo.png"),
+      date: "Nov 2021 – June 2024",
+      // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Taught cutting-edge web development technologies: React, Redux, JavaScript, Rails, Express.js, Node.js, MongoDB, AWS, and D3.js.",
+        "Led and managed student projects in MERN, Full Stack, and JavaScript, achieving over 70% completion rates.",
+        "Trained and managed a team of overall 8 instructors.",
+        "Conducted SQL-based statistical analysis to assess and optimize instructor and student performance metrics.",
+        "Hired new instructors through behavioral and technical interviews ensuring right fit for the team.",
+        "Used Salesforce to generate and manage detailed performance reports."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Computer Science and Robotics Department Lead",
+      company: "Ranney School",
+      companylogo: require("./assets/images/RanneySchoolLogo.png"),
+      date: "July 2020 – Nov 2021",
+      // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      descBullets: [
+        "Established the school’s first Computer Science Department and designed scalable curriculum.",
+        "Developed and taught courses in C++, Python, HTML, CSS, and Scratch for middle and upper school students.",
+        "Supervised an assistant robotics coach, mentoring in technical project management.",
+        "Planned and managed VEX robotics competitions, with teams qualifying for state championships."
+
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Research Assistant",
+      company: "Tufts",
+      companylogo: require("./assets/images/TuftsLogo.jpg"),
+      date: "Summer 2019",
+      descBullets: [
+        "Improve and optimize the real-time measurements from the FNIRS device by using machine learning, pandas and NumPy libraries to capture the brain state in different user-oriented tasks.",
+        "Create the front-end interface using Tkinter for various tasks to achieve different brain states.",
+        "Design and build a contraption to affix multiple data probes to test subjects to obtain readings from the prefrontal cortex.",
+        "Recruit and run experiment on 20 people while ensuring minimal changes between different experiments."
+      ]
     }
   ]
 };
@@ -394,7 +410,7 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "(315)731-0796",
+  number: "(315) 731-0796",
   email_address: "amin.babar1@gmail.com"
 };
 
