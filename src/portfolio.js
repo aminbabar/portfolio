@@ -163,7 +163,7 @@ const educationInfo = {
     {
       schoolName: "Hamilton College",
       logo: require("./assets/images/hamilton-logo.png"),
-      subHeader: "Bachellors in Computer Science",
+      subHeader: "Bachelor's in Computer Science",
       duration: "September 2016 - April 2020"
     }
   ]
@@ -394,7 +394,7 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+1-(315)-731-0796",
+  number: "(315)731-0796",
   email_address: "amin.babar1@gmail.com"
 };
 
