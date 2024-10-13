@@ -164,7 +164,7 @@ const educationInfo = {
       schoolName: "Hamilton College",
       logo: require("./assets/images/hamilton-logo.png"),
       subHeader: "Bachelor's in Computer Science",
-      duration: "September 2016 - April 2020"
+      duration: "August 2016 - May 2020"
     }
   ]
 };
@@ -232,11 +232,11 @@ const workExperiences = {
       companylogo: require("./assets/images/TuftsLogo.jpg"),
       date: "Summer 2019",
       descBullets: [
+        "Co-authored a paper titled “Visualization and Workload with Implicit fNIRS-based BCI” which was accepted by the NeuroErgonomics Conference 2024.",
         "Improved and optimized the real-time measurements from the FNIRS device by using machine learning, pandas and NumPy libraries to capture the brain state in different user - oriented tasks.",
         "Created the front-end interface using Tkinter for various tasks to achieve different brain states.",
         "Designed and built a device to affix multiple data probes to test subjects to obtain readings from the prefrontal cortex.",
         "Recruited and run an experiment on 20 people while ensuring minimal changes between different experiments.",
-        "Co-author on the paper which was approved for the Neuroergonomics Conference (2024)."
       ]
     }
   ]
