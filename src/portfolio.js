@@ -30,8 +30,8 @@ const greeting = {
   //   "A skilled Full Stack Software Engineer ⚡ with hands-on experience in building dynamic web applications using <strong>JavaScript</strong>, React, Python, Rails, and AWS. Excited to tackle new challenges and craft efficient, scalable solutions with modern technologies."
   // ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
-  displayGreeting: true // Set false to hide this section, defaults to true
+    "https://drive.google.com/file/d/1XN7DeMYANvdXA9S3gV7b2QI1omGYOWVP/view?usp=sharing", // Set to empty to hide the button
+    displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
@@ -202,12 +202,15 @@ const workExperiences = {
       date: "Nov 2021 – June 2024",
       // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
-        "Taught cutting-edge web development technologies: React, Redux, JavaScript, Rails, Express.js, Node.js, MongoDB, AWS, and D3.js.",
-        "Led and managed student projects in MERN, Full Stack, and JavaScript, achieving over 70% completion rates.",
-        "Trained and managed a team of overall 8 instructors.",
+        "Trained others in and developed web applications using modern technologies, including React, Redux, JavaScript, Rails, Express.js, Node.js, MongoDB, AWS, Canvas, and D3.",
+        "Contributed to the development of in-house software, enabling efficient day-to-day task management for peers at App Academy.",
+        "Trained and managed a team of 8 instructors.",
         "Conducted SQL-based statistical analysis to assess and optimize instructor and student performance metrics.",
         "Hired new instructors through behavioral and technical interviews ensuring right fit for the team.",
-        "Used Salesforce to generate and manage detailed performance reports."
+        "Used Salesforce to generate and manage detailed performance reports.",
+        "Led and managed student projects in MERN, Full Stack, and JavaScript, achieving over 70% completion rates.",
+        "Lectured on technical content 3 times a week to other Software Engineers",
+        "Collaborated with cross-functional teams to ensure successful project delivery"
       ]
     },
     {
@@ -217,11 +220,10 @@ const workExperiences = {
       date: "July 2020 – Nov 2021",
       // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
-        "Established the school’s first Computer Science Department and designed scalable curriculum.",
+        "Established the school’s first Computer Science Department and designed a scalable curriculum.",
         "Developed and taught courses in C++, Python, HTML, CSS, and Scratch for middle and upper school students.",
-        "Supervised an assistant robotics coach, mentoring in technical project management.",
-        "Planned and managed VEX robotics competitions, with teams qualifying for state championships."
-
+        "Supervised an assistant robotics coach and mentored them in technical project management.",
+        "Planned and managed VEX robotics competitions, with teams qualifying for state championship."
       ]
     },
     {
@@ -230,10 +232,11 @@ const workExperiences = {
       companylogo: require("./assets/images/TuftsLogo.jpg"),
       date: "Summer 2019",
       descBullets: [
-        "Improve and optimize the real-time measurements from the FNIRS device by using machine learning, pandas and NumPy libraries to capture the brain state in different user-oriented tasks.",
-        "Create the front-end interface using Tkinter for various tasks to achieve different brain states.",
-        "Design and build a contraption to affix multiple data probes to test subjects to obtain readings from the prefrontal cortex.",
-        "Recruit and run experiment on 20 people while ensuring minimal changes between different experiments."
+        "Improved and optimized the real-time measurements from the FNIRS device by using machine learning, pandas and NumPy libraries to capture the brain state in different user - oriented tasks.",
+        "Created the front-end interface using Tkinter for various tasks to achieve different brain states.",
+        "Designed and built a device to affix multiple data probes to test subjects to obtain readings from the prefrontal cortex.",
+        "Recruited and run an experiment on 20 people while ensuring minimal changes between different experiments.",
+        "Co-author on the paper which was approved for the Neuroergonomics Conference (2024)."
       ]
     }
   ]
@@ -250,29 +253,33 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "Here are some of the projects that I have been working on",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/adventure_book_logo.png"),
+      projectName: "AdventureBook",
+      projectDesc: "A full-stack social media clone built with React and Rails, featuring user authentication, friend connections, and real-time interactions with posts, comments, and likes. Includes a photo upload system using AWS S3 for secure image storage, with optimized backend responses via Jbuilder for efficient API communication.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Live Site",
+          url: "https://adventure-book-56226fae6061.herokuapp.com/#/"
+        },
+        {
+          name: "Github",
+          url: "https://github.com/aminbabar/AdventureBook"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/othello_logo.jpg"),
+      projectName: "AI Othello Player with Algorithmic Optimization (Python)",
+      projectDesc: "Developed an Othello AI using Minimax, Alpha-Beta Pruning, and Iterative Deepening Search (IDS), achieving a 96% win rate. Optimized algorithms for faster decision-making and designed custom heuristics for strategic play, reducing runtime by 70%.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Github",
+          url: "https://github.com/aminbabar/AI_Othello_Player"
         }
       ]
     }
