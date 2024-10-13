@@ -1,12 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.2008f0e2.css",
-    "main.js": "/static/js/main.b1d6e858.js",
+    "main.js": "/static/js/main.87eb7db4.js",
     "static/css/64.bba8fa55.chunk.css": "/static/css/64.bba8fa55.chunk.css",
     "static/js/64.c308527a.chunk.js": "/static/js/64.c308527a.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/static/css/769.b3cbb36b.chunk.css",
     "static/js/769.1d964084.chunk.js": "/static/js/769.1d964084.chunk.js",
+    "static/media/adventure_book_logo.png": "/static/media/adventure_book_logo.2787769664e3f401e432.png",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/resume.pdf": "/static/media/resume.3b356c2a48f89badec48.pdf",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/AppAcademyLogo.png": "/static/media/AppAcademyLogo.af74ef6dd50e02aa4b75.png",
     "static/media/hamilton-logo.png": "/static/media/hamilton-logo.ab8881ae938fba3a9a4e.png",
@@ -14,17 +16,15 @@
     "static/media/RanneySchoolLogo.png": "/static/media/RanneySchoolLogo.7db11509491cddc1fddc.png",
     "static/media/contactMailDark.svg": "/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
     "static/media/developerActivity.svg": "/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
+    "static/media/othello_logo.jpg": "/static/media/othello_logo.f2a6ea5b6f51608ca882.jpg",
     "static/media/googleAssistantLogo.webp": "/static/media/googleAssistantLogo.f720c71652579588524a.webp",
     "static/media/codeInLogo.webp": "/static/media/codeInLogo.e41a71d512efeda2a55c.webp",
     "static/media/skill.svg": "/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
-    "static/media/resume.pdf": "/static/media/resume.f0f733dd3cd732b39262.pdf",
     "static/media/pwaLogo.webp": "/static/media/pwaLogo.8bf2293da0ca66249e37.webp",
-    "static/media/saayaHealthLogo.webp": "/static/media/saayaHealthLogo.60b27d1f184fadfce43a.webp",
-    "static/media/nextuLogo.webp": "/static/media/nextuLogo.e033dbfa4c58c0a906aa.webp",
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.2008f0e2.css.map": "/static/css/main.2008f0e2.css.map",
-    "main.b1d6e858.js.map": "/static/js/main.b1d6e858.js.map",
+    "main.87eb7db4.js.map": "/static/js/main.87eb7db4.js.map",
     "64.bba8fa55.chunk.css.map": "/static/css/64.bba8fa55.chunk.css.map",
     "64.c308527a.chunk.js.map": "/static/js/64.c308527a.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/static/css/769.b3cbb36b.chunk.css.map",
@@ -32,6 +32,6 @@
   },
   "entrypoints": [
     "static/css/main.2008f0e2.css",
-    "static/js/main.b1d6e858.js"
+    "static/js/main.87eb7db4.js"
   ]
 }
