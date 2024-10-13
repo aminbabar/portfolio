@@ -31,7 +31,7 @@ const greeting = {
   // ),
   resumeLink:
     "https://drive.google.com/file/d/1XN7DeMYANvdXA9S3gV7b2QI1omGYOWVP/view?usp=sharing", // Set to empty to hide the button
-    displayGreeting: true // Set false to hide this section, defaults to true
+  displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
@@ -236,7 +236,7 @@ const workExperiences = {
         "Improved and optimized the real-time measurements from the FNIRS device by using machine learning, pandas and NumPy libraries to capture the brain state in different user - oriented tasks.",
         "Created the front-end interface using Tkinter for various tasks to achieve different brain states.",
         "Designed and built a device to affix multiple data probes to test subjects to obtain readings from the prefrontal cortex.",
-        "Recruited and run an experiment on 20 people while ensuring minimal changes between different experiments.",
+        "Recruited and run an experiment on 20 people while ensuring minimal changes between different experiments."
       ]
     }
   ]
@@ -259,7 +259,8 @@ const bigProjects = {
     {
       image: require("./assets/images/adventure_book_logo.png"),
       projectName: "AdventureBook",
-      projectDesc: "A full-stack social media clone built with React and Rails, featuring user authentication, friend connections, and real-time interactions with posts, comments, and likes. Includes a photo upload system using AWS S3 for secure image storage, with optimized backend responses via Jbuilder for efficient API communication.",
+      projectDesc:
+        "A full-stack social media clone built with React and Rails, featuring user authentication, friend connections, and real-time interactions with posts, comments, and likes. Includes a photo upload system using AWS S3 for secure image storage, with optimized backend responses via Jbuilder for efficient API communication.",
       footerLink: [
         {
           name: "Live Site",
@@ -275,7 +276,8 @@ const bigProjects = {
     {
       image: require("./assets/images/othello_logo.jpg"),
       projectName: "AI Othello Player with Algorithmic Optimization (Python)",
-      projectDesc: "Developed an Othello AI using Minimax, Alpha-Beta Pruning, and Iterative Deepening Search (IDS), achieving a 96% win rate. Optimized algorithms for faster decision-making and designed custom heuristics for strategic play, reducing runtime by 70%.",
+      projectDesc:
+        "Developed an Othello AI using Minimax, Alpha-Beta Pruning, and Iterative Deepening Search (IDS), achieving a 96% win rate. Optimized algorithms for faster decision-making and designed custom heuristics for strategic play, reducing runtime by 70%.",
       footerLink: [
         {
           name: "Github",

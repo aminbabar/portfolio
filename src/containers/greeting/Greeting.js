@@ -40,9 +40,8 @@ export default function Greeting() {
                 <strong> JavaScript</strong>, <strong> Python</strong>,
                 <strong> React</strong>, <strong> Rails</strong>,
                 <strong> MongoDB</strong>,<strong> AWS</strong>,{" "}
-                <strong> PostgreSQL </strong> and more. Always eager to
-                leverage modern frameworks and tools to solve complex
-                challenges.
+                <strong> PostgreSQL </strong> and more. Always eager to leverage
+                modern frameworks and tools to solve complex challenges.
               </p>
               <SocialMedia />
               <div className="button-greeting-div">

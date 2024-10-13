@@ -46,13 +46,19 @@ export default function Skills() {
             <SoftwareSkill />
             <div>
               <div className="header-skills">Languages:</div>
-              <p>JavaScript (ES6+), Python, Ruby, C, C++, SQL, Bash, Java, Clojure, Prolog, Haskell, Perl, Assembly Language</p>
+              <p>
+                JavaScript (ES6+), Python, Ruby, C, C++, SQL, Bash, Java,
+                Clojure, Prolog, Haskell, Perl, Assembly Language
+              </p>
 
               <div className="header-skills">Technologies & Databases:</div>
               <p>HTML5, CSS3, MongoDB, PostgreSQL, AWS, GIT, REST APIs</p>
 
               <div className="header-skills">Frameworks & Libraries:</div>
-              <p>React.js, Redux, Rails (Ruby on Rails), Express.js, Node.js, D3.js, RSpec Testing</p>
+              <p>
+                React.js, Redux, Rails (Ruby on Rails), Express.js, Node.js,
+                D3.js, RSpec Testing
+              </p>
             </div>
           </div>
         </Fade>
