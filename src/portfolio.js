@@ -202,7 +202,7 @@ const workExperiences = {
       date: "Nov 2021 – June 2024",
       // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
-        "Trained others in and developed web applications using modern technologies, including React, Redux, JavaScript, Rails, Express.js, Node.js, MongoDB, AWS, Canvas, and D3.",
+        "Trained 300+ developers in modern web technologies, including React, Redux, JavaScript, Rails, Express.js, Node.js, MongoDB, AWS, Canvas, and D3, while also developing applications using these technologies.",
         "Contributed to the development of in-house software, enabling efficient day-to-day task management for peers at App Academy.",
         "Trained and managed a team of 8 instructors.",
         "Conducted SQL-based statistical analysis to assess and optimize instructor and student performance metrics.",
