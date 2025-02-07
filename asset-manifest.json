@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.2008f0e2.css",
-    "main.js": "/static/js/main.0b72af23.js",
+    "main.js": "/static/js/main.1927b6ee.js",
     "static/css/64.bba8fa55.chunk.css": "/static/css/64.bba8fa55.chunk.css",
     "static/js/64.c308527a.chunk.js": "/static/js/64.c308527a.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/static/css/769.b3cbb36b.chunk.css",
     "static/js/769.1d964084.chunk.js": "/static/js/769.1d964084.chunk.js",
     "static/media/adventure_book_logo.png": "/static/media/adventure_book_logo.2787769664e3f401e432.png",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
-    "static/media/resume.pdf": "/static/media/resume.4c5b9324cbc5d88596f7.pdf",
+    "static/media/resume.pdf": "/static/media/resume.ed1f9ec6851f59913679.pdf",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/AppAcademyLogo.png": "/static/media/AppAcademyLogo.af74ef6dd50e02aa4b75.png",
     "static/media/hamilton-logo.png": "/static/media/hamilton-logo.ab8881ae938fba3a9a4e.png",
@@ -24,7 +24,7 @@
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.2008f0e2.css.map": "/static/css/main.2008f0e2.css.map",
-    "main.0b72af23.js.map": "/static/js/main.0b72af23.js.map",
+    "main.1927b6ee.js.map": "/static/js/main.1927b6ee.js.map",
     "64.bba8fa55.chunk.css.map": "/static/css/64.bba8fa55.chunk.css.map",
     "64.c308527a.chunk.js.map": "/static/js/64.c308527a.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/static/css/769.b3cbb36b.chunk.css.map",
@@ -32,6 +32,6 @@
   },
   "entrypoints": [
     "static/css/main.2008f0e2.css",
-    "static/js/main.0b72af23.js"
+    "static/js/main.1927b6ee.js"
   ]
 }
