@@ -199,7 +199,7 @@ const workExperiences = {
       role: "Lead Software Engineering Instructor",
       company: "App Academy",
       companylogo: require("./assets/images/AppAcademyLogo.png"),
-      date: "Nov 2021 – June 2024",
+      date: "Nov 2021 – December 2024",
       // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
         "Trained 300+ developers in modern web technologies, including React, Redux, JavaScript, Rails, Express.js, Node.js, MongoDB, AWS, Canvas, and D3, while also developing applications using these technologies.",
